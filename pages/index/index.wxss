@@ -1,0 +1,83 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%
+}
+.h {
+  height: 200px
+}
+.title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+  color: red;
+  margin-bottom: 10px
+}
+.first {
+  height: 360rpx;
+  width: 100%;
+}
+.first-image {
+  height: 100%;
+  width: 49%;
+  float: left;
+  margin-left:5rpx 
+}
+.sec-image {
+  height: 100%;
+  width: 49%;
+  float: right;
+  /* margin-left:5rpx; */
+  margin-right: 5rpx; 
+}
+.ad {
+  height: 360rpx;
+  width: 100%;
+}
+.ad-image {
+  height: 100%;
+  width: 100%;
+  margin-top: 10rpx; 
+}
+.top {
+  width: 100%;
+  height: 100%;
+  padding: 10rpx;
+  /* padding-right: 10rpx; */
+}
+.shop {
+  width: 49%;
+  height: 340rpx;
+  background-color: #DDDDDD;
+  /* padding: 10rpx; */
+  box-sizing:border-box;
+  float: left;
+}
+/* .data-image {
+  height: 300rpx;
+  padding: 10rpx;
+  width: 100%;
+  box-sizing:border-box;
+  float: left;
+} */
