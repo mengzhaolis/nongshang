@@ -1,6 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/type/type",
+    "pages/shopcart/shopcart",
+    "pages/user/user",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,5 +11,30 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "easy农商",
     "navigationBarTextStyle":"black"
+  },"tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon/home1.png",
+      "selectedIconPath": "images/icon/home.png"
+    },
+    {
+      "pagePath": "pages/type/type",
+      "text": "分类",
+      "iconPath": "images/icon/type1.png",
+      "selectedIconPath": "images/icon/type.png"
+    },
+    {
+      "pagePath": "pages/shopcart/shopcart",
+      "text": "购物车",
+      "iconPath": "images/icon/shopcart1.png",
+      "selectedIconPath": "images/icon/shopcart.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "images/icon/user1.png",
+      "selectedIconPath": "images/icon/user.png"
+    }]
   }
 }

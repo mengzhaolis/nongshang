@@ -5,9 +5,9 @@ const app = getApp()
 Page({
   data: {
     imgUrls: [
-      '/images/index/1.jpg',
-      '/images/index/2.jpg',
-      '/images/index/3.jpg'
+      '/images/index/xiangguabanner.jpg',
+      '/images/index/yangjiaocuibanner.jpg',
+      '/images/index/putaobanner.jpg'
     ],
     indicatorDots: false,
     autoplay: true,

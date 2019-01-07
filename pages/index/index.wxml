@@ -27,11 +27,14 @@
 <view class='title'>
     最新单品
 </view>
-<view class='top' wx:for="{{dataImg}}">
-  
-    <view class='shop'>
-      <!-- <image src="{{item}}" class="data-image" /> -->
+<view>
+  <block wx:for="{{dataImg}}">
+    <view class='top' >
+      <image src="{{item}}" class="data-image" />
+      <view class='new'>
+        <text class='goodsname'>商品名称</text>
+        <view class='price'>￥100</view>
+      </view>
     </view>
-
-  
+  </block>
 </view>
