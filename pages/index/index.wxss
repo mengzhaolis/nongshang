@@ -63,15 +63,14 @@
 .top {
   width: 100%;
   height: 100%;
-  padding: 10rpx;
-  /* padding-right: 10rpx; */
+  padding: 8rpx;
 }
 .shop {
   width: 49%;
-  height: 340rpx;
+  height: 400rpx;
   background-color: #DDDDDD;
   /* padding: 10rpx; */
-  box-sizing:border-box;
+  /* box-sizing:border-box; */
   float: left;
 }
 /* .data-image {
