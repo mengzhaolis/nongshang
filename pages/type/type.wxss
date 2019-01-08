@@ -1,1 +1,39 @@
 /* pages/type/type.wxss */
+.type {
+  height: 100%;
+  width: 100%
+}
+.section {
+  /* background-color: #F5F5F5; */
+  width: 25%;
+  float: left;
+}
+.da {
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin-top: 10rpx;
+}
+.right {
+  float: right;
+  /* background-color: green; */
+  width: 75%;
+}
+.top {
+  width: 49%;
+  height: 380rpx;
+  background-color: #F5F5F5;
+  box-sizing:border-box;
+  float: left
+}
+.data-image {
+  height: 75%;
+  padding: 10rpx;
+  width: 100%;
+  box-sizing:border-box;
+}
+.new {
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 14px
+}

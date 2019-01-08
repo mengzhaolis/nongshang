@@ -1,0 +1,25 @@
+<view class='type'>
+  <view class="section">
+      <view class="flex-wrp" wx:for="{{typeData}}">
+        <view class="flex-item bc_green da" bindtap='typeTab' id='{{index}}'>
+          <block wx:if="{{index == clickId}}">
+            <view style='background:#EEECEF'>{{item}}</view>
+          </block>
+          <block wx:else>
+            <view>{{item}}</view>
+          </block>
+        </view>
+      </view>
+  </view>
+  <view class='right'>
+    <block wx:for="{{dataShop}}">
+      <view class='top' >
+        <image src="{{item}}" class="data-image" />
+        <view class='new'>
+          <text class='goodsname'>商品名称</text>
+          <view class='price'>￥100</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

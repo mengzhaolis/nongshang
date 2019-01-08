@@ -5,9 +5,30 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    typeData: [
+      '香瓜',
+      '羊角脆',
+      '葡萄'
+    ],
+    clickId: 0,
+    right: '香瓜',
+    ad: '/images/index/putao.jpg',
+    dataShop: [
+      '/images/type/xiang-data1.jpg',
+      '/images/type/xiang-data2.jpg',
+      '/images/type/xiang-data3.jpg',
+      '/images/type/xiang-data4.jpg',
+      '/images/type/xiang-data5.jpg',
+      '/images/type/xiang-data6.jpg',
+    ],
   },
-
+  typeTab:function(res) {
+    console.log(res)
+    this.setData({
+      clickId: res.currentTarget.id,
+      right: this.data.dataShop[res.currentTarget.id]
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
