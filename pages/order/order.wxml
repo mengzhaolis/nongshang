@@ -1,0 +1,24 @@
+<view class='list'>
+  <wux-row wx:for="{{shopImg}}">
+    <wux-col span="4">
+        <wux-image wux-class="image" width="240rpx" height="220rpx" shape="rounded" src="{{item}}" />
+    </wux-col>
+    <view class='shopNew'>
+      <view>商品名称</view>
+      <view>价格</view>
+    </view>
+    <view class='shopNum'>
+      <view>数量</view>
+    </view>
+    <view class='shopStatus'>
+      <view>状态</view>
+    </view>
+    <view class='shopPrice'>
+      <view>总计</view>
+    </view>
+    <view class='shopTime'>
+      <view>下单时间</view>
+      <wux-divider show-text="{{ false }}" />
+    </view>
+  </wux-row>
+</view>

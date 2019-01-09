@@ -1,9 +1,9 @@
 {
+  "navigationBarTitleText": "我的订单",
   "usingComponents": {
     "wux-row": "../../dist/row/index",
     "wux-col": "../../dist/col/index",
     "wux-image": "../../dist/image/index",
-    "wux-button": "../../dist/button/index",
-    "wux-icon": "../../dist/icon/index"
+    "wux-divider": "../../dist/divider/index"
   }
 }

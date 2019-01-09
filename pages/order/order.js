@@ -1,11 +1,18 @@
-// pages/shopcart/shopcart.js
+// pages/order/order.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    shopImg: [
+      '/images/type/xiang-data1.jpg',
+      '/images/type/xiang-data2.jpg',
+      '/images/type/xiang-data3.jpg',
+      '/images/type/xiang-data4.jpg',
+      '/images/type/xiang-data5.jpg',
+      '/images/type/xiang-data6.jpg',
+    ]
   },
 
   /**

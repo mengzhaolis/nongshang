@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "wux-cell-group": "../../dist/cell-group/index",
+    "wux-cell": "../../dist/cell/index",
+    "wux-input-number": "../../dist/input-number/index",
+    "wux-divider": "../../dist/divider/index",
+    "wux-tabs": "../../dist/tabs/index",
+    "wux-tab": "../../dist/tab/index",
+    "wux-badge": "../../dist/badge/index"
+  }
+}

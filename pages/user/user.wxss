@@ -1,1 +1,32 @@
 /* pages/user/user.wxss */
+@import '../../dist/styles/index.wxss';
+
+.my-header {
+  height: 300rpx;
+  background-color: red
+}
+.head-img {
+  margin: 110rpx 15rpx
+}
+.head-name {
+  padding-top: 160rpx;
+}
+.ad-title {
+  width: 100%;
+}
+.ad-button {
+  margin-top: -10rpx
+}
+/* .ad {
+  height: 40rpx;
+  width: 40rpx;
+  margin-top: 15rpx;
+}
+.ad-ti {
+  line-height: 70rpx;
+  float: right;
+  padding-right: 40%
+} */
+.address-value {
+  margin: 10rpx 20rpx;
+}

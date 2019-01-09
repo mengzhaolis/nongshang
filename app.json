@@ -2,9 +2,10 @@
   "pages":[
     "pages/index/index",
     "pages/type/type",
-    "pages/shopcart/shopcart",
+    "pages/order/order",
     "pages/user/user",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/details/details"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -25,10 +26,10 @@
       "selectedIconPath": "images/icon/type.png"
     },
     {
-      "pagePath": "pages/shopcart/shopcart",
-      "text": "购物车",
-      "iconPath": "images/icon/shopcart1.png",
-      "selectedIconPath": "images/icon/shopcart.png"
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "images/icon/order.png",
+      "selectedIconPath": "images/icon/order1.png"
     },
     {
       "pagePath": "pages/user/user",

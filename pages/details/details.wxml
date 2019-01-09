@@ -1,0 +1,28 @@
+<!--pages/details/details.wxml-->
+<view class='both'>
+  <view class='det-img'>
+    <image src='../../images/type/xiang-data2.jpg'></image>
+  </view>
+  <wux-divider show-text="{{ false }}" />
+  <view>商品名称</view>
+  <wux-divider show-text="{{ false }}" />
+  <view>价格</view>
+  <wux-divider show-text="{{ false }}" />
+   <wux-cell-group>
+      <wux-cell title="数量" hover-class="none">
+        <wux-input-number default-value="1" min="{{ 1 }}" max="{{ 8 }}" slot="footer" />
+      </wux-cell>
+  </wux-cell-group>
+  <wux-tabs wux-class="bordered" controlled current="{{ key }}" bindchange="onTabsChange">
+    <block wx:for="{{ tabs }}" wx:key="key">
+      <wux-tab key="{{ item.key }}" title="{{ item.title }}"></wux-tab>
+    </block>
+  </wux-tabs>
+  <swiper current="{{ index }}" bindchange="onSwiperChange">
+    <block wx:for="{{ tabs }}" wx:key="key">
+      <swiper-item>
+        <view class="content">{{ item.content }}</view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

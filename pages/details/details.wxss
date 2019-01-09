@@ -1,0 +1,5 @@
+/* pages/details/details.wxss */
+
+.det-img {
+  text-align: center
+}

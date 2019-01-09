@@ -1,0 +1,6 @@
+/* pages/order/order.wxss */
+@import '../../dist/styles/index.wxss';
+
+.image {
+  margin: 10rpx
+}

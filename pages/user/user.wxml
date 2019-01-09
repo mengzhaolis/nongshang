@@ -1,0 +1,30 @@
+<view class='header'>
+  <!-- 获取用户的头像和昵称 -->
+  <view class='my-header'>
+    <wux-col span="4">
+      <wux-image wux-class="image head-img" shape="circle" src="../../images/user/head.jpg" loading="Loading" width="175rpx" height="145rpx" />
+    </wux-col>
+    <view class='head-name'>梦梦</view>
+  </view>
+  <!-- 地址管理 -->
+  <view class='my-address'>
+    <block>
+      <view class='ad-title'>
+        <!-- <image class='ad' src='../../images/user/add.png'></image>
+        <view class='ad-ti'>地址管理</view> -->
+        <wux-button block outline type="balanced" class='ad-button' ><wux-icon type="ios-save" size="16" /> 地址管理</wux-button>
+      </view>
+      <view class='address-value'>
+        <view class="section">
+          <input disabled name="name" placeholder='姓名' value='' />
+        </view>
+        <view class="section">
+          <input disabled type='number' name="mobile" placeholder='手机号' value='' />
+        </view>
+        <view class="section">
+          <input disabled type='number' name="detail" placeholder='收货地址' value='' />
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
